@@ -1,20 +1,93 @@
 <html>
 <head>
 	<title>Faith</title>
-	<h1 style="text-align: center; font-weight: bold;">Faith</h1>
 	<link rel="stylesheet" type="text/css" href="static/admin/css/dashboard.css" >
     <link rel="stylesheet" type="text/css" href="static/admin/css/bootstrap.css" >
     <link rel="stylesheet" type="text/css" href="static/admin/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="static/admin/css/christian-skeptics.css">
     <script language="javascript" type="text/javascript" src="static/admin/js/jquery.js"></script>
     <script language="javascript" type="text/javascript" src="static/admin/js/navigationMenu.js"></script>
 </head>
 
-<body>
+
+
+<script>
+	function init_page_faith()
+	{
+		
+		$('#Faith')
+		.append($('<div>').attr({"class":"row"})
+		.append($('<div>').attr({"style":"margin-left:25px;"})
+		.append($('<a>').attr({"href":"#RealFundamentals"}).text("The REAL fundamentals?").css({"fontSize":15,"font-weight":"bold"}))))
+		.append($('<div>').attr({"class":"row"})
+		.append($('<div>').attr({"style":"margin-left:25px;"})
+		.append($('<a>').attr({"href":"#DDR"}).text("Christ's DDR").css({"fontSize":15,"font-weight":"bold"}))))
+		.append($('<div>').attr({"class":"row"})
+		.append($('<div>').attr({"style":"margin-left:25px;"})
+		.append($('<a>').attr({"href":"#BiblicalAuthority"}).text("Biblical Authority").css({"fontSize":15,"font-weight":"bold"}))))
+		
+		
+		
+		;
+		
+	}
+</script>
+
+
+<body onload="init_page_faith()">
 	<div class="container-fluid">
 	    <div class="row">
 			<div id="SideBarMenu" class="col-md-2" style="border: 1px solid;">
 				<div id="navigationMenu" ></div>
 	        </div>
+			<div id="MainContent" class="col-md-8" style="border: 1px solid;">
+				<div id="Heading" class="row content-heading">
+					<h2><b>Faith</b></h2>
+				</div>
+				<div id="Content" class="row scroll-container">
+					<div id="RealFundamentals",class="scroll-page">
+						<h3><bold>What are the REAL fundamentals of Christianity?</bold></h3>
+						<br>
+						<p style="text-indent:25px;">Historically, Christian fundamentalism was a reaction to the late 19th century liberal theology that resulted from the Age of Enlightenment.  Liberal Christianity placed reason and modern knowledge over traditional doctrinal authority, and sought to view traditional Christian belief through the lens of natural explanations, such as evolution.  In some cases, this has gone as far as denying the divinity of Christ and focusing on his teachings, instead.</p>
+						<br>
+						<p style="text-indent:25px;">Fundamentalism’s initial intent was to defend essential beliefs of Christianity.  These are Christ’s divinity, atoning death, and Resurrection, as well as the Bible’s authority, though they expanded the scope of that authority into areas of facts and evidence.  Fundamentalists also considered Biblical inerrancy to be an essential doctrine, even though it wasn’t considered to be official doctrine in mainstream Protestanism and Catholicism, at the time.</p>
+						<br>
+
+					</div>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<h3>Christ's DDR: Divinity, Death, and Resurrection</h3>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<h3>Biblical Authority</h3>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<h3><bold></bold></h3>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+					<br>
+					<p style="text-indent:25px;"></p>
+				</div>
+			</div>
+			<div id="RightSideBarMenu", class="col-md-2", style="border: 1px solid;">
+				<div id="navigationMenu"></div>
+			</div>
 	    </div>
 	</div>
 </body>
