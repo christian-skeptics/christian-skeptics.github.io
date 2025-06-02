@@ -11,8 +11,8 @@ a{
 
 html,
 body {
-	/*overflow-y: hidden;
-	display: flex;*/
+	overflow-y: hidden;
+	/*display: flex;*/
 	height: 100%;
 }
 
@@ -29,6 +29,8 @@ h3 {
 
 li {
 	font-size: 20;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 .content-heading{
@@ -41,20 +43,19 @@ li {
 .scroll-container {
 	max-height: 90%;
 	overflow-y: scroll;
-	scroll-behavior: auto;
+	overflow-x: hidden;
 }
 
 .scroll-page {
   /*display: flex;height: 100%;
   align-items: center;
   justify-content: center;*/
-  
+
 }
 
 .bold-center {
 	margin-left: 200px;
-	margin-right: 250px; 
+	margin-right: 250px;
 	font-size:20;
 	font-weight: bold;
 }
-
